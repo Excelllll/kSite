@@ -1,0 +1,262 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+	color: #333;
+	font-family:
+	'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',
+	Meiryo, メイリオ,
+	helvetica, sans-serif;
+}
+p{
+	line-height: 1.5;
+}
+li{
+	list-style-type: none;
+}
+img{
+	vertical-align: bottom;
+}
+span{
+	color: inherit;
+}
+body#top{
+	display: none;
+}
+header{
+	display: block;
+	background-color: #ddd;
+}
+@media screen and (max-width:768px){
+	nav > ul{
+		overflow: hidden;
+		width: 90%;
+		margin: auto;
+		padding: 20px 0;
+	}
+}
+@media screen and (min-width:769px){
+	nav > ul{
+		overflow: hidden;
+		max-width: 760px;
+		width: 100%;
+		padding: 20px 0;
+		margin: auto;
+		display: flex;
+		justify-content: space-around;
+	}
+}
+@media screen and (max-width:768px){
+	nav > ul li{
+		width: 50%;
+		float: left;
+	}
+}
+
+@media screen and (min-width:769px){
+	nav > ul li{
+		width: 125px;
+		float: left;
+	}
+}
+
+nav > ul li a{
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+	display: block;
+	padding: 5px 0;
+	text-decoration: none;
+	color:#fff;
+	background-color: rgb(92, 134, 74);
+	border: solid 1px rgb(52, 149, 47);
+}
+nav > ul li a:hover{
+	opacity: 0.7;
+	transition: 0.4s;
+}
+nav > ul li a span{
+	font-size: 0.8rem;
+	font-weight: normal;
+	color: inherit;
+}
+
+#topImg{
+	height: 100%;
+	width: 100%;
+	background-color: rgb(42, 142, 106);
+	background-image: url(../img/topImg2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 100px 0 0;
+}
+@media screen and (max-width: 480px){
+	header h1{
+		font-size: 2rem;
+		height: 70px;
+	}
+}
+@media screen and (min-width:481px) and (max-width:768px){
+	header h1{
+		font-size: 4rem;
+		line-height: 1.2;
+		height: 100px;
+	}
+}
+@media screen and (min-width:769px){
+	header h1{
+		font-size: 6.7rem;
+		height: 200px;
+	}
+}
+header h1{
+	margin: auto;
+	text-align: center;
+	text-shadow: 0 0 7px #000;
+	letter-spacing: 2px;
+	color: #fff;
+	width: 100%;
+}
+@media screen and (max-width:480px){
+	header h1 span{
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (min-width:481px) and (max-width: 768px){
+	header h1 span{
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (min-width:769px){
+	header h1 span{
+		font-size: 1.3rem;
+		line-height: 0;
+		letter-spacing: 4px;
+	}
+}
+header h1 span{
+	vertical-align: top;
+}
+@media screen and (max-width:480px){
+	header h2{
+		font-size: 1rem;
+		max-width: 300px;
+		margin: 50px auto;
+	}
+}
+@media screen and (min-width:481px) and (max-width:768px){
+	header h2{
+		font-size: 1.4rem;
+		max-width: 380px;
+		margin: 80px auto;
+	}
+}
+
+@media screen and (min-width:769px){
+	header h2{
+		font-size: 1.8rem;
+		max-width: 470px;
+		margin: 100px auto;
+	}
+}
+header h2{
+	text-align: center;
+	border: 1px solid #334c00;
+	font-weight: normal;
+	padding: 15px 0;
+	width: 90%;
+	color: #334c00;
+}
+header #hSpace{
+	width: 100%;
+	margin: 0 auto 60px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+header p{
+	width: 80%;
+	max-width: 860px;
+	padding: 30px 0;
+	margin: auto;
+}
+
+#product ul{
+	width: 100%;
+	overflow: hidden;
+	display: table;
+}
+
+#product ul li{
+	/*width: 14.2%;*/
+	display: table-cell;
+	/*float: left;*/
+}
+#product ul li img{
+	width: 100%;
+}
+/*========
+	main
+========*/
+
+main{
+	display: block;
+}
+
+#desc{
+	background-color: #e0e6ac;
+	padding: 100px 0;
+}
+#desc h2{
+	font-size: 2rem;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#desc p{
+	margin: auto;
+	width: 90%;
+	max-width: 600px;
+}
+
+#news{
+	overflow: hidden;
+	padding: 50px 0;
+	width: 90%;
+	max-width: 600px;
+	margin: auto;
+}
+#news h2{
+	font-weight: normal;
+	margin: 20px auto;
+}
+#news dl{
+	overflow: hidden;
+	padding: 0 0 0 5px;
+	margin-bottom: 20px;
+}
+#news dt,
+#news dd{
+	padding: 5px 0;
+	overflow: hidden;
+	color: inherit;
+}
+#news dt{
+	float: left;
+	width: 150px;
+}
+
+/*========
+	footer
+========*/
+footer{
+	display: block;
+	padding: 20px;
+	background-color: #5F884D;
+}
+footer p{
+	text-align: center;
+	color: #eee;
+}

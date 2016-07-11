@@ -1,0 +1,5 @@
+AuthGroupFile /dev/null
+AuthType Basic
+AuthUserFile /home/piano/domains/atelierpiano.co.jp/.htpasswd/public_html/test/.htpasswd
+AuthName "atelierpiano"
+require valid-user

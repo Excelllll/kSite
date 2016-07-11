@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fffff0;
+  font-family: Helvetica , "游ゴシック" , "Yu Gothic" , sans-serif;
+	background-image: url(../images/amy.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 550px;
+	width: 100%;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+article{
+	padding: 1rem;
+	line-height: 1.8;
+}
+
+header{
+	padding: 0 3rem;
+}
+header h1{
+	padding: 4.5rem 4rem 0;
+/*	font-size: 6.5rem;*/
+/*	font-size: 4.5rem;*/
+	font-size: 3rem;
+	color:#AA7942;
+}
+header h1 a{
+	color:#AA7942;
+}
+header dt{
+/*	padding: 0 9rem;*/
+/*	padding: 0 4rem 2rem;*/
+	padding: 0 4rem 1rem;
+	font-size: 1.8rem;
+	color:#764e21;
+}
+header dd{
+	margin-left: 10%;
+	padding: 0.5rem;
+/*	font-size: 1rem;*/
+	font-size: 0.8rem;
+/*	color:#764e21;*/
+	color:#AA7942;
+  max-width: 540px;
+/*	background-color: rgba(250, 235, 215, 0.6);*/
+}
+
+fieldset{
+	border: none;
+}
+
+
+#main{
+	width: 75%;
+	margin: auto;
+}
+
+nav ul{
+	
+}
+nav li{
+/*	text-align: center;*/
+	list-style: none;
+/*	margin: 3.5rem 0;*/
+	margin: 3rem 0;
+/*	width: auto;*/
+}
+nav li a{
+	color: #AA7942;
+	font-size: 2rem;
+	border: #AA7942 solid 3px;
+	padding: 0.8rem;
+	border-image: url("../images/wr.png") 25 30 round;
+}
+nav li a:hover{
+	background-color: bisque;
+}
+
+#fb img{
+/*		max-width: 50px;*/
+		max-height: 80px;
+	margin-right: 0.3rem;
+}
+
+#container{
+	width: 95%;
+	margin: 0 auto;
+}
+
+#container p{
+	margin-top: 1rem;
+	line-height: 1.8;
+}
+
+main p{
+	
+}
+footer{
+}
+
+footer p{
+	padding: 20px 0;
+	margin-left: 12.5%;
+}
+footer p a{
+	color: #b96900;
+	text-decoration: none;
+}
+
+
+

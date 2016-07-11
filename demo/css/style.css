@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fffff0;
+  font-family: Helvetica , "游ゴシック" , "Yu Gothic" , sans-serif;
+	width: 100%;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style:none;
+}
+
+article{
+	padding: 1rem;
+	line-height: 1.8;
+}
+
+header{
+	padding: 0 3rem;
+}
+header p{
+	padding: 0 9rem;
+	font-size: 2.2rem;
+	color:#AA7942;
+}
+header h1{
+	padding: 4.5rem 4rem 0;
+	font-size: 6.5rem;
+	color:#AA7942;
+}
+
+main{
+	width: 83%;
+	margin: auto;
+}
+#container{
+	margin-top: 1.5rem;
+}
+#ht{
+	overflow: hidden;
+}
+.linkpage{
+	float: right;
+	margin: 1.5rem 2rem 0 0;
+}
+.linkpage a{
+	display: block;
+	border: 1px solid #7F350A;
+	padding: 1rem;
+	color: #7F350A;
+}
+.linkpage a:hover{
+	background-color: bisque;
+}
+#pagetitle{
+	display: inline-block;
+	font-size: 2rem;
+	padding: 0.8rem;
+	background-color: #7F350A;
+	border: #7F350A solid 3px;
+	border-image: url("../images/wrd.png") 30 30 round;
+	margin-top: 1rem;
+	float: left;
+	color: #fffff0;
+}
+
+.image{
+	float: left;
+	width: 500px;
+	margin-right: 2rem;
+}
+.image img{
+	width: 500px;
+}
+
+.con{
+	margin: 1rem 0;
+	border-top: 1px solid #7F350A;
+	margin-bottom: 1rem;
+	padding-top: 2rem;
+	overflow: hidden;
+}
+
+.txt p{
+	font-size: 1.1rem;
+/*	font-size: 1.5rem;*/
+	color: #7F350A;
+	padding: 0.5rem;
+	line-height: 1.8;
+}
+
+.underline{
+	background: rgba(0, 0, 0, 0) linear-gradient(transparent 90%, #f7ae5d 0%) repeat scroll 0 0;
+}
+
+footer{
+}
+
+footer p{
+	padding: 20px 0;
+	text-align: center;
+}
+footer p a{
+	color: #b96900;
+	text-decoration: none;
+}
+
+
+
